@@ -19,3 +19,24 @@ int main() {
 
     return 0;
 }
+
+
+
+// --------------------------------------------type comversion-----------------------------------------------------
+
+#include <stdio.h>
+
+int main() {
+    // Using proper data types and format specifiers for each calculation
+    int int_sum = 2 + 3;
+    float mixed_sum = 2.0 + 3;  // Implicit conversion to float for consistent output
+    float float_sum = 2.0 + 3.0;
+
+    // Print the results with clear explanations
+    printf("Sum of 2 and 3 (int + int) : %d\n", int_sum);
+    printf("Sum of 2.0 and 3 (float + int, promoted to float): %.2f\n", mixed_sum);
+    printf("Sum of 2.0 and 3.0 (float + float): %.2f\n", float_sum);
+
+    return 0;  // Indicating successful program termination
+}
+
