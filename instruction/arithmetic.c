@@ -40,3 +40,19 @@ int main() {
     return 0;  // Indicating successful program termination
 }
 
+// -------------------------------------associativity--------------------------------------------------
+
+#include <stdio.h>
+
+int main() {
+    // Explanation: The expression will be evaluated following operator precedence
+    // Division and multiplication have higher precedence than addition.
+    // 2/2 = 1, 1*3 = 3, and 5 + 3 = 8.
+    
+    int result = 5 + 2 / 2 * 3; // The expression follows operator precedence rules.
+    
+    // Print the result with a clear description
+    printf("Output: %d\n", result);
+
+    return 0;  // Indicating successful program termination
+}
